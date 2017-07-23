@@ -4,7 +4,7 @@ When you open any webpage in a browser, the HTML of the page is loaded and rende
 To accomplish that, the browser builds the Document Object Model of that page, which is an object oriented
 model of its logical structure. The DOM of an HTML document can be represented as a nested set of boxes:
 
-![DOM](DOM.png)
+![DOM](media/DOM.png)
 
 JavaScript can be used to manipulate the DOM of a page dynamically to add, delete and modify elements.
 
@@ -35,3 +35,11 @@ Each element in the DOM has a set of properties and methods that provide informa
 - element.**previousSibling** returns the previous node at the same tree level.
 - element.**parentNode** returns the parent node of an element.
 
+----
+
+#### Creating Elements
+
+Use the following methods to create new nodes:
+- element.**cloneNode()** clones an element and returns the resulting node.
+- document.**createElement(element)** creates a new element node. 
+- document.**createTextNode(text)** creates a new text node.
