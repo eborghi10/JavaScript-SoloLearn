@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- DOM, CSS & events -->
+	<link rel="stylesheet" type="text/css" href="animation.css">
+	<div id="container">
+		<div id="box" onclick="myEventHandler()">Click me</div>
+	</div>
+	<!-- Image slider example -->
+	<div>
+		<!-- White space -->
+		<br/><br/>
+		<button onclick="prev()">Prev</button>
+		<img id="slider" src="media/1.jpg" width="200px" height="100px"/>
+		<button onclick="next()">Next</button>
+	</div>
+	<!-- Form validation -->
+	<div>
+		<br/><br/>
+		<form onsubmit="return validate()" method="post">
+		  Number: <input type="text" name="num1" id="num1" />
+		  <br />
+		  Repeat: <input type="text" name="num2" id="num2" />
+		  <br />
+		  <input type="submit" value="Submit" />
+		</form>
+	</div>
+	<!-- The js file must be placed at the bottom!! -->
+	<script type="text/javascript" src="demo2.js"></script>
+</body>
+</html>
